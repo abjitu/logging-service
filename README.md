@@ -1,2 +1,3 @@
 # logging-service
-Service to log both application logs and user events
+
+Service to handle two different types of logs; first is the e-commerce site customers' activities and second is applications logs.For user activities; the importance of this service is represented in the analytics and data mining to provide intelligent recommendation system according to the user browsing and interests that will be logged through your component. For applications logs; all applications in the organization will use your component for logging.
