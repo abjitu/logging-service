@@ -1,0 +1,30 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+	
+	sourceCompatibility = 1.7
+	targetCompatibility = 1.7
+
+    repositories {
+       mavenCentral()
+    }
+
+    dependencies {
+        testCompile 'junit:junit:4.8.2'
+    }
+
+    version = '1.0'
+
+    jar {
+        manifest.attributes provider: 'logging-service'
+    }
+    
+    buildscript {
+    	repositories {
+        	mavenCentral()
+   		}
+    	dependencies {
+        	classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.5.RELEASE")
+    	}
+    }
+}

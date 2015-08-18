@@ -1,0 +1,14 @@
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+jar {
+    baseName = 'logging-api'
+    version =  '1.0'
+}
+
+dependencies {
+	compile project(':logging-models')
+	compile 'org.springframework.boot:spring-boot-starter-web:1.2.5.RELEASE'
+    compile 'org.springframework.amqp:spring-rabbit:1.4.5.RELEASE'
+    compile 'org.springframework.data:spring-data-mongodb:1.7.1.RELEASE'
+}

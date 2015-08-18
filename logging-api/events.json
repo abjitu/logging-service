@@ -1,0 +1,37 @@
+{
+	"appName":"APP1",
+	"sessionId":"b0be651a-70ff-434e-e246-da8b35af1769",
+	"currencyCode":"USD",
+	"userInfo":{
+		"userId":"1",
+		"userName":"abjitu",
+		"email":"test@test.com",
+		"firstName":"test",
+		"lastName":"QA",
+		"state":"Active"
+	},
+	"senderInfo":{
+		"ipAddress":"192.168.1.1",
+		"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36",
+		"location":"Bangalore"
+	},
+	"eventType":"ADD_TO_CART",
+	"payload":{
+		"keyword":null,
+		"products":[
+			{
+				"id":"b55da",
+				"name":"Flexigen T-Shirt",
+				"price":"16.00",
+				"brand":"Flexigen",
+				"category":"T-Shirts",
+				"variant":"red",
+				"dimension1":"M",
+				"position":0,
+				"quantity":1
+			}
+			
+		]
+		
+	}
+}
